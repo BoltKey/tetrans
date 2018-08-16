@@ -1,0 +1,157 @@
+#game-canvas {
+	background-color: #ddffdd;
+	will-change: transform;
+}
+
+.truck-0 {background: url(graphics/truck0.png);}
+.truck-1 {background: url(graphics/truck1.png);}
+.truck-2 {background: url(graphics/truck2.png);}
+
+.truck-image {
+	width: 100;
+    height: 80;
+    background-size: contain;
+    background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.stars {
+	display: flex;
+	margin: 3px 25px;
+}
+#mute {
+	    font-size: 10;
+    position: absolute;
+    left: 750;
+    top: 20;
+}
+.top {
+	font-family: arial;
+}
+.star {
+	width: 30;
+    height: 30;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lock {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(100, 100, 100, .8);
+    background-image: url(graphics/lock.png);
+    background-size: contain;
+    background-position: center;
+}
+.lock span {
+	position: absolute;
+    left: 67px;
+    font-family: arial;
+    top: 98px;
+    font-size: 32px;
+    color: #FFEB3B;
+    font-weight: bold;
+}
+#buttons {
+	display: flex;
+    position: absolute;
+    width: 686px;
+    height: 200px;
+    top: 20px;
+    left: 60px;
+    justify-content: space-between;
+	background: rgba(220, 200, 255, .5);
+}
+.button-wrap {
+	width: 200px;
+    position: relative;
+	background-color: rgba(255, 220, 220, .8);
+	border-radius: 5px;
+	text-align: center;
+	margin: 14px;
+}
+.done {
+	background-image: url(graphics/star.png);
+}
+.nope {
+	background-image: url(graphics/star-gray.png);
+}
+
+.score-row {
+	background-color: gainsboro;
+}
+
+#name-input {
+	position: absolute;
+    top: 564px;
+    left: 30;
+    font-size: 30;
+    width: 200;
+}
+
+.score-table {
+	position: absolute;
+	font-family: arial;
+	font-size: 12px;
+	top: 240px;
+	left: 8%;
+	background: rgba(128, 128, 128, .8);
+	text-align: center;
+	width: 180px;
+    max-width: 180px;
+}
+
+.score-name-inner {
+	max-width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.own-score {
+	background-color: rgba(150, 150, 128, .8);
+}
+
+.menu {
+	
+}
+
+/*https://www.bestcssbuttongenerator.com/#/9*/
+.menu {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+	background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+	background-color:#d0451b;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.menu:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+.menu:active {
+	position:relative;
+	top:1px;
+}

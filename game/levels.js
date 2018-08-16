@@ -1,0 +1,96 @@
+const LEVELS = [
+	{nodes: [
+		{x: 210, y: 250, name: "Prague"},
+		{x: 410, y: 350, name: "Brno"},
+		{x: 80, y: 280, name: "Plzen"},
+		{x: 510, y: 270, name: "Ostrava"},
+		{x: 280, y: 140, name: "Liberec"},
+		{x: 215, y: 380, name: "Ceske Budejovice"},
+		/*{x: 350, y: 400},
+		{x: 400, y: 100},
+		{x: 450, y: 300},
+		{x: 500, y: 200},
+		{x: 550, y: 500},*/
+	],
+	cargo: [
+		[-1, -1, -1, -1, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		[-1, -1, 0, 0, 0, -1],
+		[-1, -1, 0, 0, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		],
+	shapes: [0, 1, 2, 4],
+	time: 3000,
+	name: "Czech Republic"
+	},
+	{nodes: [
+		{x: 270, y: 100, name: "Delhi"},
+		{x: 330, y: 175, name: "Kanpur"},
+		{x: 550, y: 200, name: "Kolkata"},
+		{x: 130, y: 205, name: "Ahmedabad"},
+		{x: 140, y: 320, name: "Mumbai"},
+		{x: 255, y: 480, name: "Bengaluru"},
+		{x: 360, y: 480, name: "Chennai"},
+		{x: 300, y: 370, name: "Hyderabad"}
+	],
+	cargo: [
+		[-1, -1, -1, -1, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		[-1, 0, 0, 0, 0, -1],
+		[-1, 0, 0, 0, 0, -1],
+		[-1, 0, 0, 0, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		],
+	shapes: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+	time: 5000,
+	name: "India"
+	},
+	{nodes: [
+		{x: 80, y: 90, name: "Seattle"},
+		{x: 40, y: 300, name: "San José"},
+		{x: 100, y: 400, name: "Los Angeles"},
+		{x: 150, y: 350, name: "Las Vegas"},
+		{x: 250, y: 450, name: "Cuidad Juaréz"},
+		{x: 350, y: 400, name: "Dallas"},
+		{x: 320, y: 250, name: "Oklahoma City"},
+		{x: 370, y: 460, name: "Houston"},
+		{x: 450, y: 455, name: "Tallahassee"},
+		{x: 420, y: 200, name: "Indianapolis"},
+		{x: 380, y: 100, name: "Chicago"},
+		{x: 520, y: 250, name: "Washington"},
+		{x: 570, y: 200, name: "New York"},
+		{x: 620, y: 160, name: "Boston"},
+	],
+	cargo: [
+		[-1, -1, -1, -1, -1, -1],
+		[0, 0, 0, 0, -1, -1],
+		[0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0],
+		[-1, -1, -1, -1, -1, -1],
+		],
+	shapes: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+	time: 7000,
+	name: "America"
+	},
+	{
+	nodes: [
+		{x: 80, y: 90, name: "Point A"},
+		{x: 300, y: 120, name: "Point B"},
+		{x: 280, y: 320, name: "Point C"},
+		{x: 150, y: 350, name: "Point D"},
+	],
+	cargo: [
+		[-1, -1, -1, -1, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		[-1, -1, 0, 0, 0, -1],
+		[-1, -1, 0, 0, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		[-1, -1, -1, -1, -1, -1],
+		],
+	shapes: [0, 1, 2],
+	time: 7000,
+	name: "Training Zone"
+	}
+]
